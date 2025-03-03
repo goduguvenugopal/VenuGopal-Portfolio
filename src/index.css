@@ -6,3 +6,13 @@ body {
   background-image: linear-gradient(to right ,  #1a2028 ,  #0f2745);
   /* background-color: #1a2028; */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.bcgc{
+  /* background-image: linear-gradient(to right ,  #1a2028 ,  #0f2745); */
+  background-color: #151b23;
+}
