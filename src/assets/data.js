@@ -2,16 +2,17 @@
 
 export const bioData = {
   name: "Godugu Venu Gopal",
-  profile: "example.jpeg",
+  profile: "/public/venugopal.jpg",
   roles: ["Full Stack Developer", "Front Developer", "Programmer"],
   description:
     "Versatile Full Stack (MERN) Developer with a passion for creating seamless digital experiences. Proficient in building robust web applications and crafting visually compelling designs that resonate with users. Dedicated to delivering innovative solutions that merge functionality with aesthetics.",
   github: "https://github.com/goduguvenugopal",
   resume:
     "https://drive.google.com/file/d/1KV3AwPg7qV0T2hZivXNlEzEbyIdc-rLF/view?usp=drivesdk",
-  linkedin: "https://www.linkedin.com/in/nandu-ramineni-85a226251/",
-  twitter: "https://twitter.com/Nanduvarma13",
-  insta: "https://instagram.com/nanduvarma__?igshid=OGQ5ZDc2ODk2ZA==",
+  linkedin:
+    "https://www.linkedin.com/in/venugopalgodugu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRKw0CedrTo2kiMy9%2B0YJuw%3D%3D",
+  twitter: " ",
+  insta: "",
 };
 
 //   skills
