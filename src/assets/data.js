@@ -2,7 +2,7 @@
 
 export const bioData = {
   name: "Godugu Venu Gopal",
-  profile: "/public/venugopal.jpg",
+  profile: "//venugopal.jpg",
   roles: ["Full Stack Developer", "Front Developer", "Programmer"],
   description:
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
@@ -28,30 +28,30 @@ export const skills = [
       {
         name: "Redux",
         image:
-          "public/skills/redux.png",
+          "/skills/redux.png",
       },
       {
         name: "HTML",
-        image: "public/skills/html5-badge-h-solo.png",
+        image: "/skills/html5-badge-h-solo.png",
       },
       {
         name: "CSS",
         image:
-          "public/skills/css.png",
+          "/skills/css.png",
       },
       {
         name: "JavaScript",
         image:
-          "public/skills/JavaScript-logo.png",
+          "/skills/JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
         image:
-          "public/skills/bootstrap-logo-shadow.png",
+          "/skills/bootstrap-logo-shadow.png",
       },
       {
         name: "Tailwind",
-        image: "public/skills/tailwind.png",
+        image: "/skills/tailwind.png",
       },
     ],
   },
@@ -95,7 +95,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "public/skills/git.png",
+          "/skills/git.png",
       },
       {
         name: "GitHub",
@@ -115,12 +115,12 @@ export const skills = [
       {
         name: "Vercel",
         image:
-          "public/skills/vercel.png",
+          "/skills/vercel.png",
       },
       {
         name: "Render",
         image:
-          "public/skills/render.png",
+          "/skills/render.png",
       },
     ],
   },
