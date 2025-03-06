@@ -27,8 +27,7 @@ export const skills = [
       },
       {
         name: "Redux",
-        image:
-          "/skills/redux.png",
+        image: "/skills/redux.png",
       },
       {
         name: "HTML",
@@ -36,18 +35,15 @@ export const skills = [
       },
       {
         name: "CSS",
-        image:
-          "/skills/css.png",
+        image: "/skills/css.png",
       },
       {
         name: "JavaScript",
-        image:
-          "/skills/JavaScript-logo.png",
+        image: "/skills/JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
-        image:
-          "/skills/bootstrap-logo-shadow.png",
+        image: "/skills/bootstrap-logo-shadow.png",
       },
       {
         name: "Tailwind",
@@ -94,8 +90,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "/skills/git.png",
+        image: "/skills/git.png",
       },
       {
         name: "GitHub",
@@ -114,13 +109,11 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:
-          "/skills/vercel.png",
+        image: "/skills/vercel.png",
       },
       {
         name: "Render",
-        image:
-          "/skills/render.png",
+        image: "/skills/render.png",
       },
     ],
   },
@@ -160,139 +153,23 @@ export const education = [
 // projects
 export const projects = [
   {
-    id: 11,
-    title: "Streaming Application",
-    date: "July 2024 ",
-    description:
-      "A feature-rich streaming application built with the MERN stack, utilizing AWS S3 for secure storage and CloudFront for fast content delivery. Includes user authentication via Firebase and JWT, seamless payments with Razorpay, and comprehensive admin settings for managing users, subscriptions, and content. Designed for a smooth and engaging user experience across all devices.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/1.jpg?alt=media&token=d0695331-f48e-4fbc-acf1-ae00eb4f5f79",
-    tags: [
-      "React Js",
-      "MongoDB",
-      "Redux",
-      "Node.js",
-      "Express.js",
-      "JWT",
-      "Razorpay",
-      "AWS S3",
-      "CloudFront",
-    ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/Streaming-Application.git",
-    webapp: "https://github.com/Nandu-ramineni/Streaming-Application.git",
-  },
-  {
-    id: 10,
-    title: "Food Delivery Application",
-    date: "June 2024 - June 2024",
-    description:
-      "🚀 Introducing My Food Order & Delivery Platform! 🍕 This innovative platform, built with React, Redux, Node.js, and MongoDB, is designed to offer seamless user experiences from browsing to order completion. It boasts secure JWT authentication, ensuring user data is protected, and integrates Razorpay for smooth and reliable transactions.🎯 User Experience: Customers can effortlessly browse menus, customize orders, and track deliveries in real-time.👨‍🍳 Vendor Management: Vendors have robust tools to manage their menus, track orders, and engage with customers efficiently.📊 Admin Control: Admins have full oversight with detailed analytics, user management, and vendor coordination, all through an intuitive dashboard.Explore it on GitHub and experience the live demo for a hands-on feel of this comprehensive solution.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/user-pannel.png?alt=media&token=efdaa07d-c460-4655-9b7e-e34c86e3043c",
-    tags: [
-      "React Js",
-      "MongoDB",
-      "Redux",
-      "Node.js",
-      "Express.js",
-      "JWT",
-      "Razorpay",
-      "Redux",
-      "MERN Stack",
-    ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/FoodDelivery.git",
-    webapp: "https://yummz.netlify.app",
-  },
-  {
-    id: 9,
-    title: "Employee Management System",
-    date: "Sep 2023 - Oct 2023",
-    description:
-      "I successfully developed an Employee Management System using J2EE, Java, HTML, CSS, JSP, and JavaScript. The system offers a user-friendly interface with features such as employee data management, attendance tracking, leave management, and performance evaluation. It demonstrates my proficiency in both backend (Java, J2EE) and frontend (HTML, CSS, JSP, JavaScript) technologies, providing organizations with a comprehensive solution for efficient workforce management.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/ems.png?alt=media&token=d803fd5f-18de-4ccd-82a1-467d60eb302c",
-    tags: [
-      "Java",
-      "J2EE",
-      "Html",
-      "CSS",
-      "Javascript",
-      "Hibernate",
-      "MySql",
-      "Jsp",
-    ],
-    category: "web app",
-    github:
-      "https://github.com/Nandu-ramineni/Employee_Management_System_Using_J2EE.git",
-    webapp:
-      "https://github.com/Nandu-ramineni/Employee_Management_System_Using_J2EE.git",
-  },
-  {
-    id: 0,
-    title: "Restaurant Web Application",
-    date: "May 2023 - June 2023",
-    description:
-      "I have developed a comprehensive multipage restaurant web application using a combination of HTML, CSS, JavaScript, and SCSS (Sass). This web application is designed to offer an engaging and user-friendly experience for both restaurant owners and their customers. ",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/p1.jpg?alt=media&token=22776214-fe35-4f66-bca4-fb4c62bb055c",
-    tags: ["React Js", "HTML", "CSS", "JavaScript", "SCSS"],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/DineInn.git",
-    webapp: "https://nandu-ramineni.github.io/DineInn/Restaurent.html",
-  },
-  {
     id: 1,
-    title: "Weather App",
-    date: "Sep 2022 - Oct 2022",
-    description:
-      "I developed a weather app that offers users a user-friendly interface to access location-based weather information. The app provides current conditions, hourly and daily forecasts, and extended forecasts for up to a week. It uses icons and visuals to represent weather data and supports multiple locations for user convenience.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/weather.png?alt=media&token=add710b1-fbf6-4ecc-a948-2a8c87e5de67",
-    tags: ["React Js", "Html", "Css", "Javascript", "Scss"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp:
-      "https://nandu-ramineni.github.io/Weather-App-using-html-css-js/weather.html",
+    title: "Images Search App",
+    date: "Feb 2024",
+    description: " A simple and responsive image search application built using HTML, CSS, JavaScript (ES6+), and Bootstrap. Fetches high-quality images using API calls, allowing users to search and explore a wide range of photos.",
+    image: "/projects/images-app.png",
+    techstack: ["Bootstrap", "JavaScript (ES6+)", "html", "css"],
+    category: "frontend",
+    github: "https://github.com/goduguvenugopal/Images-Search-App",
+    webapp: "https://vkimages.netlify.app/",
   },
   {
-    id: 3,
-    title: "Marketing Flyer",
-    date: "Dec 2022",
-    description:
-      "Introducing a dynamic Marketing Flyer Poster designed with expertise in Graphic Design. This visually captivating material seamlessly integrates aesthetics and functionality, featuring striking visuals, modern typography, and brand consistency. Crafted to enhance your marketing impact, this poster reflects my proficiency in Graphic Design, ensuring your message stands out effectively.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/marketing_flyer2.psd.jpg?alt=media&token=12f1a329-fe74-4cd8-a106-c0e46a036338",
-    tags: ["Adobe Photoshop", "Adobe Illustrator", "Graphic Design", "UI/UX"],
-    category: "android app",
-    github: "https://github.com/Nandu-ramineni/Photoshop-Psd-s.git",
-    webapp:
-      "https://firebasestorage.googleapis.com/v0/b/nandu-1121a.appspot.com/o/marketing_flyer1.jpg?alt=media&token=cdc8f037-9612-4671-97a3-9c1d04b66257",
-  },
-  {
-    id: 10,
-    title: "Swiggy Poster",
-    date: "Jun 2023",
-    description:
-      "I take pride in crafting an eye-catching Swiggy poster through graphic design expertise. This visually appealing poster seamlessly captures the essence of Swiggy's service, blending vibrant colors, enticing food imagery, and modern design elements. The poster effectively communicates the convenience and variety offered by Swiggy, serving as a compelling visual invitation for users to explore the diverse culinary delights available at their fingertips.",
-    image:
-      "https://i.pinimg.com/originals/5b/da/50/5bda50c439a2e0b1dd07456a9ccb8d48.jpg",
-    tags: ["PhotoShop", "Adobe Illustrator", "Graphic Design"],
-    category: "android app",
-    github: "https://github.com/Nandu-ramineni/Photoshop-Psd-s.git",
-    webapp:
-      "https://firebasestorage.googleapis.com/v0/b/nandu-1121a.appspot.com/o/Swiggy.jpg?alt=media&token=eca2cab1-0ed0-4d73-acd7-3dfc10a07f0d",
-  },
-  {
-    id: 4,
-    title: "MockTest Quiz App",
-    date: "Nov 2023",
-    description:
-      "🚀 Mocktest Duniya: Elevate Your Exam Prep Journey! 📚. Explore a revolutionary React-based platform designed to transform your competitive exam preparation. Mocktest Duniya offers diverse test components, real-time scoring, and expertly curated mock tests for exams like JEE, GATE, TSPSC, and more. With a user-friendly interface, innovative learning approaches, and a supportive community, Mocktest Duniya is your go-to ally for mastering exams. Join us and experience the advantage of targeted practice, insightful strategies, and a transformative learning journey. 🌟💻",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/Quizapp.jpeg?alt=media&token=7e57f923-e3a1-4613-a324-d451fd051cec",
-    tags: [
+    id: 2,
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
       "React Js",
       "JavaScript (ES6+)",
       "Styled Components",
@@ -300,88 +177,118 @@ export const projects = [
       "React Router",
       "SASS",
     ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/react-mocktest.git",
-    webapp: "https://mocktestduniya.netlify.app/",
+    category: "",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
+      "React Js",
+      "JavaScript (ES6+)",
+      "Styled Components",
+      "React Icons",
+      "React Router",
+      "SASS",
+    ],
+    category: "",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 4,
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
+      "React Js",
+      "JavaScript (ES6+)",
+      "Styled Components",
+      "React Icons",
+      "React Router",
+      "SASS",
+    ],
+    category: "",
+    github: "",
+    webapp: "",
   },
   {
     id: 5,
-    title: "Job Portal App",
-    date: "Jan 2024",
-    description:
-      "🚀 JobVista: Elevate Your Dream job Journey! 📚. Explore a revolutionary React-based platform designed to transform your Job-search. Job vista  offers diverse job oppurtunities. 🌟💻",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/job-portal-c3290.appspot.com/o/jobvista.jpg?alt=media&token=8dff462e-6682-46c4-8808-465c24561d38",
-    tags: ["React Js", "JavaScript (ES6+)", "Firebase", "Tailwind CSS", "API"],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/job-portal-website.git",
-    webapp: "https://jobvesta.netlify.app/",
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
+      "React Js",
+      "JavaScript (ES6+)",
+      "Styled Components",
+      "React Icons",
+      "React Router",
+      "SASS",
+    ],
+    category: "",
+    github: "",
+    webapp: "",
   },
   {
     id: 6,
-    title: "File Sharing App",
-    date: "Feb 2024",
-    description:
-      "🚀 File Sharing App: Elevate Your File Sharing Journey! 📚. Explore a revolutionary MERN-based platform designed to transform your File Sharing. File Sharing App offers diverse file sharing oppurtunities. 🌟💻",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/File-sharing.jpeg?alt=media&token=f245bcd4-e270-42e1-bda0-105cc3dfce0f",
-    tags: [
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
       "React Js",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Mongoose",
-      "Multer",
-      "Tailwind CSS",
-      "API",
+      "JavaScript (ES6+)",
+      "Styled Components",
+      "React Icons",
+      "React Router",
+      "SASS",
     ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/file_sharing.git",
-    webapp: "https://filesend.netlify.app/",
+    category: "",
+    github: "",
+    webapp: "",
   },
   {
     id: 7,
-    title: "Ecommerce [Flipkart-Clone]",
-    date: "Mar 2024",
-    description:
-      "🚀This project is a replica of Flipkart, developed using the MERN stack. It offers a user-friendly e-commerce platform with features like product browsing, user authentication, and order processing. The frontend, built with React.js and Redux, communicates with the Node.js backend via RESTful APIs. Razorpay integration ensures secure payment processing, enhancing the overall shopping experience. 🛒💳",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/flipkart.png?alt=media&token=bee4ad70-ba65-4308-aa65-6d7a499a46ef",
-    tags: [
+    title: " ",
+    date: " ",
+    description: "",
+    image: "",
+    techstack: [
       "React Js",
-      "Redux",
-      "MUI",
-      "Tailwind CSS",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Razorpay",
-      "API",
+      "JavaScript (ES6+)",
+      "Styled Components",
+      "React Icons",
+      "React Router",
+      "SASS",
     ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/flipkart-clone.git",
-    webapp: "https://flipkcart.netlify.app",
+    category: "",
+    github: "",
+    webapp: "",
   },
-  {
-    id: 8,
-    title: "Chat Ai",
-    date: "May 2024",
-    description:
-      "I developed a Chat AI application using a React frontend with Tailwind CSS for styling and Axios for HTTP requests, and an Express.js backend. The backend integrates Googles Generative AI using the @google/generative-ai package to generate text responses based on user prompts. The application includes features such as a fixed-position input form, code detection in responses, and a loading indicator. I managed environment configuration with dotenv`and handled CORS using the cors package.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-6467b.appspot.com/o/chat.png?alt=media&token=b64b1a87-f679-40ea-bb2f-5d0936ac45e4",
-    tags: [
-      "React Js",
-      "Gemini",
-      "API",
-      "Tailwind CSS",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Cors",
-    ],
-    category: "web app",
-    github: "https://github.com/Nandu-ramineni/Chat_AI.git",
-    webapp: "https://aigemini.netlify.app/",
-  },
+  // {
+  //   id: 8,
+  //   title: " ",
+  //   date: " ",
+  //   description:
+  //     "",
+  //   image:
+  //     "",
+  //   techstack: [
+  //     "React Js",
+  //     "JavaScript (ES6+)",
+  //     "Styled Components",
+  //     "React Icons",
+  //     "React Router",
+  //     "SASS",
+  //   ],
+  //   category: "",
+  //   github: "",
+  //   webapp: "",
+  // },
 ];
