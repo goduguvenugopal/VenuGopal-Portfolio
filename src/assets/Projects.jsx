@@ -1,5 +1,7 @@
 import React from 'react'
 import { projects } from './data'
+import { FaGithub } from 'react-icons/fa'
+import { TbExternalLink } from 'react-icons/tb'
 
 
 const Projects = () => {
@@ -16,10 +18,12 @@ const Projects = () => {
         {/* skills cards */}
         <div className="flex justify-center gap-10 flex-wrap mt-10">
           {projects.map((project) => (
-            <div
+            <a href={project.webapp}
+              target='_self'
               key={project.id}
-              className="border w-[90%] lg:w-[30%] shadow-sm shadow-purple-700 p-5 rounded-2xl border-purple-700"
+              className="bordr w-[90%] transition-transform transform duration-500 ease-in-out hover:-translate-y-4 bg-gray-900 lg:w-[30%] cursor-pointer shadow-md hover:drop-shadow-lg shadow-gray-900 p-5 rounded-2xl "
             >
+
               <img src={project.image} alt={project.title} className='w-full rounded-[0.6rem]' />
 
               <div className="flex mt-4  items-center gap-2 flex-wrap">
@@ -28,16 +32,22 @@ const Projects = () => {
                     className=" px-3 py-1 bg-black rounded-3xl"
                     key={index1}
                   >
-                    <h5 className="text-[#9ea2a3] font-medium text-[0.8rem]">{tool}</h5>
+                    <h5 className="text-[#9ea2a3] capitalize font-medium text-[0.8rem]">{tool}</h5>
                   </div>
                 ))}
               </div>
 
-              <h5 className='text-gray-200 text-start mt-3 font-medium text-[1.2rem]'>{project.title}</h5>
-              <h6 className='text-gray-400 text-start mt-1 font-medium text-[12px]'>{project.date}</h6>
-              <p className='text-gray-300 text-start mt-1 font-semibold text-md'>{project.description}</p>
+              <div className='mt-3 flex justify-between items-center'>
+                <h5 className='text-gray-200 text-start capitalize  font-medium text-[1.2rem]'>{project.title}</h5>
+                <div className='flex text-white gap-4 items-center'>
+                  <a href={project.webapp} title='Live Link' className='border border-[#151b23] hover:border-gray-300 p-1 rounded-full'><TbExternalLink size={19} /></a>
+                  <a href={project.github} title='GitHub' className='border border-[#151b23] hover:border-gray-300 p-1 rounded-full'><FaGithub size={19} /></a>
+                </div>
+              </div>
+              <h6 className='text-gray-500 capitalize text-start mt-1 font-medium text-[12px]'>{project.date}</h6>
+              <h6 className='text-gray-400 text-start mt-1 text-md'>{project.description}</h6>
 
-            </div>
+            </a>
           ))}
         </div>
       </div>

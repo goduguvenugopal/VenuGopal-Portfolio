@@ -5,6 +5,7 @@ import { MdClose } from 'react-icons/md'
 import Introduction from "./Introduction"
 import Skills from './Skills'
 import Projects from "./Projects"
+import Education from './Education'
 
 
 const Navbar = () => {
@@ -124,6 +125,10 @@ const Navbar = () => {
 
       <div id="projects">
         <Projects />
+      </div>
+      
+      <div id='education'>
+        <Education />
       </div>
 
     </>
