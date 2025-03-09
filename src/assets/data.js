@@ -123,30 +123,31 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQFGWqY-QmlfrA/company-logo_200_200/0/1685511548650/paruluniversity_logo?e=2147483647&v=beta&t=3mOMlWrM8QfTk-2Wadrcf1pJ_AgLkpGDyon0PgvGx10",
-    school: "Parul University, Vadodara",
-    date: "2021 - 2025",
-    grade: "7.9 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Parul Institute of Engineering and Technology, Vadodara. I have completed 7 semesters and have a CGPA of 7.9. I have taken courses in Artificial Intelligence, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks,Parallel computing among others.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "/education/degree.jpeg",
+    school: "Sri Sanakara's Degree College, Kurnool",
+    date: "2022 - 2025",
+    grade: "85%",
+    desc: "I am currently pursuing a Bachelor's degree in Commerce (B.Com) with a specialization in Computer Applications. My coursework includes Web Development, Programming in C, Database Management Systems, Computer Networks, E-Commerce, Accounting, Financial Management, Business Law, Economics, and Taxation, among others.",
+    sub: "Bachelor of Commerce (B.Com) with Specialization in Computer Applications",
+     
   },
   {
     id: 1,
-    img: "https://media.cakeresume.com/image/upload/s--cXLhEg-S--/c_pad,fl_png8,h_400,w_400/v1594271398/cdpipcjawdd3slgxh6qa.png",
-    school: "Sri Chaitanya JR Kalashala, Hyderabad",
-    date: "June 2019 - Apr 2021",
-    grade: "98.6%",
-    desc: "I completed my 12th-grade education at Sri Chaitanya Junior College in Hyderabad, specializing in the MPC (Mathematics, Physics, and Chemistry) stream.",
-    degree: "TSBIE(XII), MPC (Mathematics, Physics, and Chemistry)",
+    img: "/education/iti.jpeg",
+    school: "Sri Sarvodaya ITI college, Kurnool",
+    date: "June 2017 - Apr 2019",
+    grade: "95.5%",
+    desc: "I completed my ITI course at Sri Sarvodaya ITI College, specializing in Electrical Theory, Mathematics, Engineering Drawing, Practical Training, and English.",
+    sub: "Industrial Training Institute (ITI) course in the Electrician branch",
   },
   {
     id: 2,
-    img: "https://pbs.twimg.com/profile_images/2351320338/SricityTwitter_400x400.png",
-    school: "Sri City School, Miryalaguda",
-    date: "Jun 2018 - Mar 2019",
-    grade: "9.3 CGPA",
-    desc: "I successfully navigated the educational waters of the Telangana State Board during my 10th-grade, emerging with a stellar CGPA of 9.3.",
-    degree: "SSC(X)",
+    img: "/education/tenth.jpg",
+    school: "Shivam Modern School, Nandikotkur",
+    date: "Jun 2016 - Mar 2017",
+    grade: "7.7 CGPA",
+    desc: "I completed my 10th-grade education at Shivam Modern School, where I studied core subjects including Mathematics, Science, Social Studies, English, and a second language.",
+    sub: "SSC(X)",
   },
 ];
 
@@ -178,7 +179,7 @@ export const projects = [
       "node.js",
       "express.js",
       "mongodb",
-      "firebase"
+      "firebase",
     ],
     category: "fullstack",
     github: "https://github.com/goduguvenugopal/fashionanr",
@@ -239,7 +240,8 @@ export const projects = [
     id: 6,
     title: "Dora a to z fresh",
     date: "jan 2025",
-    description: " Dora A to Z is a full-stack e-commerce platform with Flipkart-like features, including a cart, profile management, order tracking, category-based search, and a responsive UI. Sellers have a dedicated portal to manage products, orders, and offers. Secure login with JWT authentication and email verification ensures a safe shopping experience.",
+    description:
+      " Dora A to Z is a full-stack e-commerce platform with Flipkart-like features, including a cart, profile management, order tracking, category-based search, and a responsive UI. Sellers have a dedicated portal to manage products, orders, and offers. Secure login with JWT authentication and email verification ensures a safe shopping experience.",
     image: "/projects/dora.png",
     techstack: [
       "React Js",
@@ -258,14 +260,10 @@ export const projects = [
     id: 7,
     title: "sneha farms",
     date: "oct 2024",
-    description: "Sneha Farms is a web application where supervisors and drivers can easily find farm details using a unique farm code. With a simple UI, search function, and Google login via Firebase, users can quickly access farm information and navigate to the location via a Google Maps link.",
+    description:
+      "Sneha Farms is a web application where supervisors and drivers can easily find farm details using a unique farm code. With a simple UI, search function, and Google login via Firebase, users can quickly access farm information and navigate to the location via a Google Maps link.",
     image: "/projects/sneha-farms.png",
-    techstack: [
-      "JavaScript (ES6+)",
-      "React Js",
-      "bootstrap",
-      "firebase"
-    ],
+    techstack: ["JavaScript (ES6+)", "React Js", "bootstrap", "firebase"],
     category: "frontend",
     github: "https://github.com/goduguvenugopal/Sneha-Farms",
     webapp: "https://snehafarms.netlify.app/",
