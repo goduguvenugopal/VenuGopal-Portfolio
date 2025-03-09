@@ -31,7 +31,7 @@ const Education = () => {
                 <h5 className="text-[#acafb0] capitalize font-medium text-[0.9rem]">
                   {item.sub}
                 </h5>
-
+                <h6 className='text-gray-500 capitalize text-start mt-1 font-medium text-[12px]'>{item.date}</h6>
               </div>
             </div>
             <h6 className='text-gray-400 capitalize text-start mb-3 font-medium text-[14px]'><span className='text-gray-400 font-medium'>Grade : </span>{item.grade}</h6>
