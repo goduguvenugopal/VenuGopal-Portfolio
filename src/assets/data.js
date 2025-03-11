@@ -12,7 +12,7 @@ export const bioData = {
   linkedin:
     "https://www.linkedin.com/in/venugopalgodugu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRKw0CedrTo2kiMy9%2B0YJuw%3D%3D",
   twitter: " ",
-  insta: "",
+  instagram: "https://www.instagram.com/venu_gopal_godugu?utm_source=qr&igsh=MXVoNzVicHgwNm52Mw==",
 };
 
 //   skills
@@ -129,7 +129,6 @@ export const education = [
     grade: "85%",
     desc: "I am currently pursuing a Bachelor's degree in Commerce (B.Com) with a specialization in Computer Applications. My coursework includes Web Development, Programming in C, Database Management Systems, Computer Networks, E-Commerce, Accounting, Financial Management, Business Law, Economics, and Taxation, among others.",
     sub: "Bachelor of Commerce (B.Com) with Specialization in Computer Applications",
-     
   },
   {
     id: 1,
@@ -288,4 +287,37 @@ export const projects = [
   //   github: "",
   //   webapp: "",
   // },
+];
+
+// course certifications
+export const certification = [
+  {
+    id: 0,
+    img: "/education/entri.jpeg",
+    institute:
+      "MERN Stack Developer | Trained at Entri Elevate Software Pvt Ltd",
+    duration: "2023 - 2024",
+    desc: "I successfully completed the MERN Full Stack Development course at Entri Elevate Software Pvt Ltd, where I gained hands-on experience in building full-stack applications using MongoDB, Express.js, React.js, and Node.js. During the course, I worked on real-world projects that enhanced my skills in front-end and back-end development, RESTful API creation, authentication, database management, and deployment.",
+    certificate:
+      "https://drive.google.com/file/d/1MfJlJrIcjMGq1ZFzmPsEYSuMozQ9djbN/view?usp=drive_link",
+  },
+  {
+    id: 1,
+    img: "/education/illinois.png",
+    institute:
+      "Full Stack Development (MERN Stack) – Illinois Institute of Technology",
+    duration: "2023 - 2024",
+    desc: "I successfully earned the Full Stack Development (MERN Stack) certification from the Illinois Institute of Technology, showcasing my expertise in MongoDB, Express.js, React.js, and Node.js. This certification reflects my ability to develop dynamic, scalable web applications, implement RESTful APIs, manage databases, and build user-friendly interfaces. It highlights my commitment to continuous learning and staying updated with modern web technologies.",
+    certificate:
+      "https://drive.google.com/file/d/1MfJlJrIcjMGq1ZFzmPsEYSuMozQ9djbN/view?usp=drive_link",
+  },
+  {
+    id: 2,
+    img: "/education/entri.jpeg",
+    institute: "Internship at Entri Elevate Software Pvt Ltd",
+    duration: "Nov 2024",
+    desc: "I completed a one-month internship at Entri Elevate, where I gained hands-on experience in full-stack development. During this period, I built a social media application and a movie booking application, applying my skills in MongoDB, Express.js, React.js, and Node.js. This internship strengthened my ability to develop scalable web applications, integrate APIs, and enhance user experience through modern UI/UX practices.",
+    certificate:
+      "https://drive.google.com/file/d/1MeFtGV6nMe1-uzj_mqsc8sCnXXlG7Wtl/view?usp=drive_link",
+  },
 ];
