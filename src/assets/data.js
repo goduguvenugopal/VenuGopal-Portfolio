@@ -12,7 +12,8 @@ export const bioData = {
   linkedin:
     "https://www.linkedin.com/in/venugopalgodugu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRKw0CedrTo2kiMy9%2B0YJuw%3D%3D",
   twitter: " ",
-  instagram: "https://www.instagram.com/venu_gopal_godugu?utm_source=qr&igsh=MXVoNzVicHgwNm52Mw==",
+  instagram:
+    "https://www.instagram.com/venu_gopal_godugu?utm_source=qr&igsh=MXVoNzVicHgwNm52Mw==",
 };
 
 //   skills
@@ -309,7 +310,7 @@ export const certification = [
     duration: "2023 - 2024",
     desc: "I successfully earned the Full Stack Development (MERN Stack) certification from the Illinois Institute of Technology, showcasing my expertise in MongoDB, Express.js, React.js, and Node.js. This certification reflects my ability to develop dynamic, scalable web applications, implement RESTful APIs, manage databases, and build user-friendly interfaces. It highlights my commitment to continuous learning and staying updated with modern web technologies.",
     certificate:
-      "https://drive.google.com/file/d/1MfJlJrIcjMGq1ZFzmPsEYSuMozQ9djbN/view?usp=drive_link",
+      "https://drive.google.com/file/d/1tDnlNmOU4SrX1zvJplV_-SUwAW0nTleH/view?usp=sharing",
   },
   {
     id: 2,
