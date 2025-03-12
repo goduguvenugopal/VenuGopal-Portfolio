@@ -18,8 +18,8 @@ const Projects = () => {
         {/* skills cards */}
         <div className="flex justify-center gap-10 flex-wrap mt-10">
           {projects.map((project) => (
-            <a href={project.webapp}
-              target='_self'
+            <section  
+             
               key={project.id}
               className="bordr w-[90%] transition-transform transform duration-500 ease-in-out hover:-translate-y-4 bg-gray-900 lg:w-[30%] cursor-pointer shadow-md hover:drop-shadow-lg shadow-gray-900 p-5 rounded-2xl "
             >
@@ -47,7 +47,7 @@ const Projects = () => {
               <h6 className='text-gray-500 capitalize text-start mt-1 font-medium text-[12px]'>{project.date}</h6>
               <h6 className='text-gray-400 text-start mt-1 text-md'>{project.description}</h6>
 
-            </a>
+            </section>
           ))}
         </div>
       </main>
