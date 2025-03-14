@@ -146,7 +146,8 @@ const Contact = () => {
                 }
               </div>
 
-              <div className="p-2 w-full pt-8 mt-7 border-t border-gray-200 text-center">
+{/* footer  section*/}
+              <section className="p-2 w-full pt-8 mt-7 border-t border-gray-200 text-center">
                 <h5 className="text-purple-500 font-medium text-[1.12rem]">{bioData.name}</h5>
 
                 <div className='flex justify-center gap-[0.8rem] lg:gap-5 mt-5'>
@@ -171,7 +172,7 @@ const Contact = () => {
                   </a>
                 </nav>
                 <p>© 2025 Godugu Venu Gopal. All rights reserved.</p>
-              </div>
+              </section>
             </div>
           </div>
         </div>
