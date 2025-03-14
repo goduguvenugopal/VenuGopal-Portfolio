@@ -3,7 +3,7 @@
 export const bioData = {
   name: "Godugu Venu Gopal",
   profile: "//venugopal.jpg",
-  roles: ["Full Stack Developer", "Front Developer", "Programmer"],
+  roles: ["Full Stack Developer", "Frontend Developer", "Programmer"],
   description:
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
   github: "https://github.com/goduguvenugopal",
