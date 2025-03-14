@@ -17,13 +17,13 @@ const Introduction = () => {
 
         {/* bio data and description section */}
         <div className='w-full lg:w-[50%] order-1 lg:order-1 p-2 text-center lg:text-start  '>
-          <h6 className='text-4xl text-white flex flex-col gap-3 font-medium'>
+          <h2 className='text-4xl text-white flex flex-col gap-3 font-medium'>
             Hi, I am
-            <span>
+            <h1>
               {bioData.name}
-            </span>
+            </h1>
 
-          </h6>
+          </h2>
           <h5 className='text-white text-2xl lg:text-3xl my-4 font-medium'>I am a <span className='text-purple-600'>
             <Typewriter
               words={bioData.roles}
