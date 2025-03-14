@@ -11,7 +11,7 @@ export const bioData = {
     "https://drive.google.com/file/d/1KV3AwPg7qV0T2hZivXNlEzEbyIdc-rLF/view?usp=drivesdk",
   linkedin:
     "https://www.linkedin.com/in/venugopalgodugu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRKw0CedrTo2kiMy9%2B0YJuw%3D%3D",
-  twitter: " ",
+  twitter: "https://x.com/goduguvenugopal?t=GG-FKtGY6uWcOjTY0jWjyw&s=09",
   instagram:
     "https://www.instagram.com/venu_gopal_godugu?utm_source=qr&igsh=MXVoNzVicHgwNm52Mw==",
 };
