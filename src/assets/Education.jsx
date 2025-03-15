@@ -35,7 +35,7 @@ const Education = () => {
               </div>
             </div>
             <h6 className='text-gray-400 capitalize text-start mb-3 font-medium text-[14px]'><span className='text-gray-400 font-medium'>Grade : </span>{item.grade}</h6>
-            <h6 className='text-gray-500 capitalize text-start  font-medium text-sm'>{item.desc}</h6>
+            <h6 className='text-gray-500 capitalize text-justify  font-medium text-sm'>{item.desc}</h6>
           </motion.div>
         ))}
       </section>

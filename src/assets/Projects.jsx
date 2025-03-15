@@ -45,7 +45,7 @@ const Projects = () => {
                 </div>
               </div>
               <h6 className='text-gray-500 capitalize text-start mt-1 font-medium text-[12px]'>{project.date}</h6>
-              <h6 className='text-gray-400 text-start mt-1 text-md'>{project.description}</h6>
+              <h6 className='text-gray-400  mt-1 text-md text-justify'>{project.description}</h6>
 
             </section>
           ))}
