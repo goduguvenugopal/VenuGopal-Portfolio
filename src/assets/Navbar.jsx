@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <>
-      <main className={`sticky left-0 top-0 w-full bcgc z-10 transition-transform duration-300 ${navVisible ? "translate-y-0" : "-translate-y-full"}`}>
+      <main className={`sticky left-0 top-0 w-full bcgc z-10 transition-transform duration-300 select-none ${navVisible ? "translate-y-0" : "-translate-y-full"}`}>
         <div className={` lg:shadow-lg p-2 select-none relative ${menu ? "shadow-none" : "shadow-lg"}`}>
           {/* large device navbar section  */}
           <section className='flex lg:justify-around lg:items-center'>
@@ -116,23 +116,23 @@ const Navbar = () => {
       </main>
 
       {/* other components  */}
-      <div id="about" >
+      <div id="about" className='select-none'>
         <Introduction />
       </div>
 
-      <div id="skills">
+      <div className='select-none' id="skills">
         <Skills />
       </div>
 
-      <div id="projects">
+      <div className='select-none' id="projects">
         <Projects />
       </div>
       
-      <div id='education'>
+      <div className='select-none' id='education'>
         <Education />
       </div>
 
-      <div id='contact'>
+      <div className='select-none' id='contact'>
         <Contact />
       </div>
 

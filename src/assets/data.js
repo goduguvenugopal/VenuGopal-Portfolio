@@ -164,7 +164,7 @@ export const projects = [
     description:
       " A simple and responsive image search application built using HTML, CSS, JavaScript (ES6+), and Bootstrap. Fetches high-quality images using API calls, allowing users to search and explore a wide range of photos.",
     image: "/projects/images-app.png",
-    techstack: ["Bootstrap", "JavaScript (ES6+)", "html", "css"],
+    techstack: ["Bootstrap", "html", "css", "JavaScript (ES6+)"],
     category: "frontend",
     github: "https://github.com/goduguvenugopal/Images-Search-App",
     webapp: "https://vkimages.netlify.app/",
@@ -178,9 +178,9 @@ export const projects = [
     image: "/projects/fashionanr.png",
     techstack: [
       "React Js",
-      "JavaScript (ES6+)",
       "bootstrap",
       "node.js",
+      "JavaScript (ES6+)",
       "express.js",
       "mongodb",
       "firebase",
@@ -196,7 +196,7 @@ export const projects = [
     description:
       "First replica project, a recreation of the Entri Elevate website built using HTML, CSS, JavaScript, and Bootstrap, showcasing clean design and responsive UI.",
     image: "/projects/entrielevate.png",
-    techstack: ["JavaScript", "html", "css", "bootstrap"],
+    techstack: ["html", "css", "bootstrap", "JavaScript (ES6+)"],
     category: "frontend",
     github: "https://github.com/goduguvenugopal/Entri-clone",
     webapp: "https://entrielevateclone.netlify.app/",
@@ -210,9 +210,9 @@ export const projects = [
     image: "/projects/zomato.png",
     techstack: [
       "React Js",
-      "JavaScript (ES6+)",
       "bootstarp",
       "node.js",
+      "JavaScript (ES6+)",
       "express.js",
       "mongodb",
     ],
@@ -229,9 +229,9 @@ export const projects = [
     image: "/projects/chathub.png",
     techstack: [
       "React Js",
-      "JavaScript (ES6+)",
       "bootstrap",
       "node.js",
+      "JavaScript (ES6+)",
       "express.js",
       "mongodb",
       "firebase",
@@ -242,10 +242,22 @@ export const projects = [
   },
   {
     id: 6,
+    title: "sneha farms",
+    date: "oct 2024",
+    description:
+      "Sneha Farms is a web application where supervisors and drivers can easily find farm details using a unique farm code. With a simple UI, search function, and Google login via Firebase, users can quickly access farm information and navigate to the location via a Google Maps link.",
+    image: "/projects/sneha-farms.png",
+    techstack: ["React Js", "bootstrap", "firebase", "JavaScript (ES6+)"],
+    category: "frontend",
+    github: "https://github.com/goduguvenugopal/Sneha-Farms",
+    webapp: "https://snehafarms.netlify.app/",
+  },
+  {
+    id: 7,
     title: "Dora a to z fresh",
     date: "jan 2025",
     description:
-      " Dora A to Z is a full-stack e-commerce platform with Flipkart-like features, including a cart, profile management, order tracking, category-based search, and a responsive UI. Sellers have a dedicated portal to manage products, orders, and offers. Secure login with JWT authentication and email verification ensures a safe shopping experience.",
+      "A full-stack e-commerce platform with Zomato-like features, including a cart, order tracking, category-wise product browsing, and a responsive UI. Seller gets a dedicated portal to manage products and offers, buyers enjoy a seamless shopping experience. Secure JWT authentication & email verification ensure safety.",
     image: "/projects/dora.png",
     techstack: [
       "React Js",
@@ -261,37 +273,23 @@ export const projects = [
     webapp: "https://doraatozfresh.vercel.app/",
   },
   {
-    id: 7,
-    title: "sneha farms",
-    date: "oct 2024",
-    description:
-      "Sneha Farms is a web application where supervisors and drivers can easily find farm details using a unique farm code. With a simple UI, search function, and Google login via Firebase, users can quickly access farm information and navigate to the location via a Google Maps link.",
-    image: "/projects/sneha-farms.png",
-    techstack: ["JavaScript (ES6+)", "React Js", "bootstrap", "firebase"],
+    id: 8,
+    title: "SLV Electricals",
+    date: "Mar 2025",
+    description: "SLV Electricals is a business website showcasing electrical products and services. Built with React, Vite, and Tailwind CSS, it ensures a fast, responsive, and user-friendly experience. The site features a modern UI, intuitive navigation, and scalable design, making it easy for customers to explore products and services seamlessly.",
+    image: "/projects/slv-electricals.png",
+    techstack: [
+      "React Js",
+      "Styled Components",
+      "React Icons",
+      "framer-motion",
+      "JavaScript (ES6+)",
+      "Tailwind",
+    ],
     category: "frontend",
-    github: "https://github.com/goduguvenugopal/Sneha-Farms",
-    webapp: "https://snehafarms.netlify.app/",
+    github: "https://github.com/goduguvenugopal/slv-electricals",
+    webapp: "https://www.slvelectricals.in/",
   },
-  // {
-  //   id: 8,
-  //   title: " ",
-  //   date: " ",
-  //   description:
-  //     "",
-  //   image:
-  //     "",
-  //   techstack: [
-  //     "React Js",
-  //     "JavaScript (ES6+)",
-  //     "Styled Components",
-  //     "React Icons",
-  //     "React Router",
-  //     "SASS",
-  //   ],
-  //   category: "",
-  //   github: "",
-  //   webapp: "",
-  // },
 ];
 
 // course certifications

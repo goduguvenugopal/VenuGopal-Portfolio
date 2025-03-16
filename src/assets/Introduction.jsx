@@ -35,7 +35,7 @@ const Introduction = () => {
               delaySpeed={1000}
             />
           </span></h5>
-          <p className='text-[#9ea2a3]  text-[1.11rem] text-justify'>{bioData.description}</p>
+          <p className='text-[#9ea2a3]  text-[1.11rem] '>{bioData.description}</p>
           <a className='cursor-pointer ' href={bioData.resume}><button className='rounded-full cursor-pointer text-[1.2rem] h-[3rem] mt-5 text-white font-medium bg-gradient-to-r from-pink-500 w-[60%] to-purple-600 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>View Resume</button>
           </a>
         </div>

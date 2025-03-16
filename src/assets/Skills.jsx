@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <>
 
-      <main className="p-3 mt-20 border-t-1 pt-18 text-center">
+      <main className="p-3 mt-20 border-t-1 pt-18 text-center select-none">
         <h5 className="text-3xl mb-3 text-white font-medium">Skills</h5>
         <p className="text-[#9ea2a3] text-[1.1rem]">
           Here are some of my skills on which I have been working on for the past year.
@@ -28,7 +28,7 @@ const Skills = () => {
               <div className="flex justify-center items-center gap-3 flex-wrap">
                 {title.skills.map((skill, index1) => (
                   <div
-                    className="border flex justify-center px-5 py-2 items-center gap-2 border-gray-400 rounded-3xl"
+                    className="border flex justify-center px-5 py-2 items-center gap-2 border-gray-400 bcgc rounded-3xl"
                     key={index1}
                   >
                     <img src={skill.image} alt={skill.name} className="w-7 h-7 rounded-full" />

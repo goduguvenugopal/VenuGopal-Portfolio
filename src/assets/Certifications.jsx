@@ -34,7 +34,7 @@ const Certifications = () => {
                 <h6 className='text-gray-500 capitalize text-start mt-1 font-medium text-[12px]'>{item.duration}</h6>
               </div>
             </div>
-            <h6 className='text-gray-500 capitalize  mb-2 font-medium text-sm text-justify'>{item.desc}</h6>
+            <h6 className='text-gray-500 capitalize  mb-2 font-medium text-sm '>{item.desc}</h6>
             <a href={item.certificate} className='text-gray-300  capitalize text-start mb-3 font-medium text-[14px]'><span className='text-gray-400 font-medium hover:text-blue-500 flex items-center gap-1'><TbExternalLink size={18}/>Certificate</span></a>
      
           </motion.div>
