@@ -3,7 +3,12 @@
 export const bioData = {
   name: "Godugu Venu Gopal",
   profile: "//venugopal.jpg",
-  roles: ["Full Stack Developer", "Frontend Developer", "Programmer"],
+  roles: [
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Programmer",
+    "Backend Developer",
+  ],
   description:
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
   github: "https://github.com/goduguvenugopal",
@@ -276,7 +281,8 @@ export const projects = [
     id: 8,
     title: "SLV Electricals",
     date: "Mar 2025",
-    description: "SLV Electricals is a business website showcasing electrical products and services. Built with React, Vite, and Tailwind CSS, it ensures a fast, responsive, and user-friendly experience. The site features a modern UI, intuitive navigation, and scalable design, making it easy for customers to explore products and services seamlessly.",
+    description:
+      "SLV Electricals is a business website showcasing electrical products and services. Built with React, Vite, and Tailwind CSS, it ensures a fast, responsive, and user-friendly experience. The site features a modern UI, intuitive navigation, and scalable design, making it easy for customers to explore products and services seamlessly.",
     image: "/projects/slv-electricals.png",
     techstack: [
       "React Js",
