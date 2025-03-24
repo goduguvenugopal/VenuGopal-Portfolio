@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Certifications from './Certifications';
 
 const Skills = () => {
+
+ 
   return (
     <>
 

@@ -2,7 +2,7 @@
 
 export const bioData = {
   name: "Godugu Venu Gopal",
-  profile: "//venugopal.jpg",
+  profile: "/venugopal.jpg",
   roles: [
     "Full Stack Developer",
     "Frontend Developer",
