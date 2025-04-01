@@ -13,7 +13,7 @@ export const bioData = {
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
   github: "https://github.com/goduguvenugopal",
   resume:
-    "https://drive.google.com/file/d/1KV3AwPg7qV0T2hZivXNlEzEbyIdc-rLF/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Fir3eosAA4nWJwge0eCSjtOpU-UJSRxG/view?usp=sharing",
   linkedin:
     "https://www.linkedin.com/in/venugopalgodugu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRKw0CedrTo2kiMy9%2B0YJuw%3D%3D",
   twitter: "https://x.com/goduguvenugopal?t=GG-FKtGY6uWcOjTY0jWjyw&s=09",
