@@ -11,9 +11,11 @@ const Introduction = () => {
       <main className='p-3 w-full flex  justify-around flex-wrap mt-[3rem] gap-5'>
         {/* image card  */}
 
-        <div className='w-full order-1 lg:order-2 lg:w-[30%] lg:h-[50vh] p-2'>
-          <img src="/venugopal.jpg" alt="venugopal-image" className='border-2 border-purple-500 rounded-full w-full h-fit' />
+        <div className='w-full border-2 border-purple-500 rounded-full order-1 lg:order-2 lg:w-[30%] lg:h-fit overflow-hidden'>
+          <img src="/venugopal.jpg" alt="venugopal-image" className=' transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 rounded-full w-full h-fit' />
         </div>
+     
+
 
         {/* bio data and description section */}
         <div className='w-full lg:w-[50%] order-1 lg:order-1 p-2 text-center lg:text-start  '>
