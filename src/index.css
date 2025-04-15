@@ -3,11 +3,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right ,  #1a2028 ,  #0f2745);
+  background-image: linear-gradient(to right, #1a2028, #0f2745);
   /* background-color: #1a2028; */
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -16,7 +16,12 @@ html {
 }
 
 
-.bcgc{
+.bcgc {
   /* background-image: linear-gradient(to right ,  #1a2028 ,  #0f2745); */
   background-color: #151b23;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
 }
