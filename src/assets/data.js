@@ -76,9 +76,9 @@ export const skills = [
       //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       // },
       {
-        name: "MySQL",
+        name: "PostgreSQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+          "/skills/postgresql.jpeg",
       },
       {
         name: "MongoDB",

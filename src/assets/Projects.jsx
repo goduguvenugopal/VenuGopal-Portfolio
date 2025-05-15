@@ -40,7 +40,7 @@ const Projects = () => {
               <div className='mt-3 flex justify-between items-center'>
                 <h5 className='text-gray-200 text-start capitalize  font-medium text-[1.2rem]'>{project.title}</h5>
                 <div className='flex text-white gap-4 items-center'>
-                  <a href={project.webapp} title='Live Link' className='border border-[#151b23] hover:border-gray-300 p-1 rounded-full'><TbExternalLink size={19} /></a>
+                  <a href={project.webapp} target='_blank' title='Live Link' className='border border-[#151b23] hover:border-gray-300 p-1 rounded-full'><TbExternalLink size={19} /></a>
                   <a href={project.github} title='GitHub' className='border border-[#151b23] hover:border-gray-300 p-1 rounded-full'><FaGithub size={19} /></a>
                 </div>
               </div>
