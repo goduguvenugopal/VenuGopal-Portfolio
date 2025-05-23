@@ -158,17 +158,17 @@ const Contact = () => {
                   <a href='mailto:venuiti97@gmail.com' className='text-sm lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Email us</a>
                 </div>
                 <nav className="inline-flex my-6">
-                  <a className="text-gray-200 " href={bioData.twitter}>
-                    <FaX size={19} className='cursor-pointer hover:text-purple-500' />
+                  <a className="text-gray-200 " href={bioData.twitter} target="_blank">
+                    <FaX size={21} className='cursor-pointer hover:text-purple-500' />
                   </a>
-                  <a className="ml-4 text-gray-200" href={bioData.linkedin}>
-                    <FaLinkedin size={19} className='cursor-pointer hover:text-purple-500' />
+                  <a className="ml-4 text-gray-200" href={bioData.linkedin} target="_blank">
+                    <FaLinkedin size={21} className='cursor-pointer hover:text-purple-500' />
                   </a>
-                  <a className="ml-4 text-gray-200" href={bioData.instagram}>
-                    <FaInstagram size={19} className='cursor-pointer hover:text-purple-500' />
+                  <a className="ml-4 text-gray-200" href={bioData.instagram} target="_blank">
+                    <FaInstagram size={21} className='cursor-pointer hover:text-purple-500' />
                   </a>
-                  <a className="ml-4 text-gray-200" href={bioData.github}>
-                    <FaGithub size={19} className='cursor-pointer hover:text-purple-500' />
+                  <a className="ml-4 text-gray-200" href={bioData.github} target="_blank">
+                    <FaGithub size={21} className='cursor-pointer hover:text-purple-500' />
                   </a>
                 </nav>
                 <p>© 2025 Godugu Venu Gopal. All rights reserved.</p>
