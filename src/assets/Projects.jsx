@@ -21,7 +21,7 @@ const Projects = () => {
             <section  
              
               key={project.id}
-              className="bordr w-[90%] transition-transform transform duration-500 ease-in-out hover:-translate-y-4 bg-gray-900 lg:w-[30%] cursor-poin shadow-md hover:drop-shadow-lg shadow-gray-900 p-5 rounded-2xl "
+              className="border-2 border-blue-900 w-[90%] transition-transform transform duration-500 ease-in-out hover:-translate-y-4 bg-gray-900 lg:w-[30%] cursor-poin shadow-md hover:drop-shadow-lg shadow-gray-900 p-5 rounded-2xl "
             >
 
               <img src={project.image} alt={project.title} className='w-full rounded-[0.6rem] border  border-gray-500 p-1 outline-red-400' />
