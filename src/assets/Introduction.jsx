@@ -68,7 +68,7 @@ const Introduction = () => {
                 View Resume
               </button>
             </a>
-            <a className="cursor-pointer" href={`tel:+91${bioData.mobile}`}>
+            <a className="cursor-pointer" href={`mailto:${bioData.email}`}>
               <button className="rounded-full mt-5 lg:mt-0 cursor-pointer text-[1.2rem] h-[3rem] text-white font-medium bg-gradient-to-l from-green-500 w-[60%] lg:w-[40%] to-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                 Contact Us
               </button>

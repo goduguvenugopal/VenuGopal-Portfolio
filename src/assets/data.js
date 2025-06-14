@@ -10,6 +10,7 @@ export const bioData = {
     "Backend Developer",
   ],
   mobile: "9059746913",
+  email : "venuiti97@gmail.com",
   description:
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
   github: "https://github.com/goduguvenugopal",

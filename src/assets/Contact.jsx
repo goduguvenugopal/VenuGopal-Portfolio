@@ -155,7 +155,7 @@ const Contact = () => {
                   <a href='#skills' className='text-md lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Skills</a>
                   <a href='#projects' className='text-md lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Projects</a>
                   <a href='#education' className='text-md lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Education</a>
-                  <a href='mailto:venuiti97@gmail.com' className='text-sm lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Email us</a>
+                  <a href={`mailto:${bioData.email}`} className='text-sm lg:text-[1.2rem] text-white font-semibold hover:text-blue-500'>Contact us</a>
                 </div>
                 <nav className="inline-flex my-6">
                   <a className="text-gray-200 " href={bioData.twitter} target="_blank">
