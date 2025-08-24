@@ -302,6 +302,27 @@ export const projects = [
     github: "https://github.com/goduguvenugopal/slv-electricals",
     webapp: "https://www.slvelectricals.in/",
   },
+    {
+    id: 9,
+    title: "Madly Mart",
+    date: "Aug 2025",
+    description:
+      "MadlyMart – A full-stack e-commerce platform designed for a smooth shopping experience. It features a smart cart system, real-time order tracking, category-based product browsing, and a fully responsive UI. Sellers have a dedicated dashboard to manage products, offers, and inventory, while buyers get a seamless, intuitive shopping journey. Secure JWT authentication and email verification provide robust account safety.",
+    image: "/projects/madlymart.png",
+    techstack: [
+      "React Js",
+      "JavaScript (ES6+)",
+      "tailwind",
+      "express.js",
+      "node.js",
+      "cloudinary",
+      "mongodb",
+      "razorpay (payment gateway)"
+    ],
+    category: "fullstack",
+    github: "https://github.com/goduguvenugopal/Madly-Mart",
+    webapp: "https://madlymartuser.vercel.app",
+  },
 ];
 
 // course certifications
