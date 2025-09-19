@@ -129,6 +129,10 @@ export const skills = [
         name: "Postman",
         image: "/skills/postman.png",
       },
+      {
+        name: "Railway",
+        image: "/skills/railway.png",
+      },
     ],
   },
 ];
