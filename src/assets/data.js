@@ -1,5 +1,4 @@
 // bio data
-
 export const bioData = {
   name: "Godugu Venu Gopal",
   profile: "/venugopal.jpg",
@@ -10,7 +9,7 @@ export const bioData = {
     "Backend Developer",
   ],
   mobile: "9059746913",
-  email : "venuiti97@gmail.com",
+  email: "venuiti97@gmail.com",
   description:
     "Full-Stack (MERN) Developer passionate about building high-performance, scalable, and user-friendly web applications. Skilled in crafting intuitive interfaces and efficient back-end systems. Always learning and innovating to deliver cutting-edge digital solutions.",
   github: "https://github.com/goduguvenugopal",
@@ -78,8 +77,7 @@ export const skills = [
       // },
       {
         name: "PostgreSQL",
-        image:
-          "/skills/postgresql.jpeg",
+        image: "/skills/postgresql.jpeg",
       },
       {
         name: "MongoDB",
@@ -111,9 +109,9 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
-       name: "AWS",
-       image: "/skills/amazon.png",
-     },
+        name: "AWS",
+        image: "/skills/amazon.png",
+      },
       {
         name: "VS Code",
         image:
@@ -253,13 +251,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "sneha farms",
+    title: "SNEHA farms",
     date: "oct 2024",
     description:
       "Sneha Farms is a web application where supervisors and drivers can easily find farm details using a unique farm code. With a simple UI, search function, and Google login via Firebase, users can quickly access farm information and navigate to the location via a Google Maps link.",
     image: "/projects/sneha-farms.png",
     techstack: ["React Js", "bootstrap", "firebase", "JavaScript (ES6+)"],
-    category: "frontend",
+    category: "fullstack",
     github: "https://github.com/goduguvenugopal/Sneha-Farms",
     webapp: "https://snehafarms.netlify.app/",
   },
@@ -302,7 +300,7 @@ export const projects = [
     github: "https://github.com/goduguvenugopal/slv-electricals",
     webapp: "https://www.slvelectricals.in/",
   },
-    {
+  {
     id: 9,
     title: "Madly Mart",
     date: "Aug 2025",
@@ -317,11 +315,32 @@ export const projects = [
       "node.js",
       "cloudinary",
       "mongodb",
-      "razorpay (payment gateway)"
+      "razorpay (payment gateway)",
     ],
     category: "fullstack",
     github: "https://github.com/goduguvenugopal/Madly-Mart",
     webapp: "https://madlymartuser.vercel.app",
+  },
+  {
+    id: 10,
+    title: "SNEHA Generator Tracking System",
+    date: "Sep 2025",
+    description:
+      "Sneha Generator Tracking System – A full-stack web application for monitoring and managing generator usage in real-time. Employees can log generator runtime, while incharges and managers access an administration dashboard for employee CRUD operations and generator monitoring. The system features live runtime tracking, cron-based alerts every 10 minutes, and printable reports for audits. Web Push notifications are integrated with a PWA service worker so employees receive alerts even when the app is closed.",
+    image: "/projects/sneha-hatchery.png",
+    techstack: [
+      "React Js",
+      "JavaScript (ES6+)",
+      "Tailwind CSS",
+      "Express.js",
+      "Node.js",
+      "MongoDB (Mongoose)",
+      "Node-Cron",
+      "Web Push Notifications (PWA)",
+    ],
+    category: "fullstack",
+    github: "https://github.com/goduguvenugopal/Sneha-Hatchery",
+    webapp: "https://snehahatchery.vercel.app",
   },
 ];
 
