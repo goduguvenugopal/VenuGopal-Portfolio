@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { bioData } from "./data";
+import { bioData } from "../assets/data";
 import { Typewriter } from "react-simple-typewriter";
 import {
   FaCheck,
@@ -73,61 +73,72 @@ const Introduction = () => {
                 Contact Us
               </button>
             </a>
-          <nav className="flex justify-center mt-5 gap-3 lg:hidden">
-
-            <a className="text-black bg-white hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.twitter} target="_blank">
-              <FaX size={21} className="cursor-pointer  " />
-            </a>
-            <a className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.linkedin} target="_blank">
-              <FaLinkedin
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-            <a className=" text-black  hover:bg-blue-500 hover:text-white bg-white rounded-full p-2 flex justify-center items-center " href={bioData.instagram} target="_blank">
-              <FaInstagram
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-            <a className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.github} target="_blank">
-              <FaGithub
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-                </nav>
+            <nav className="flex justify-center mt-5 gap-3 lg:hidden">
+              <a
+                className="text-black bg-white hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+                href={bioData.twitter}
+                target="_blank"
+              >
+                <FaX size={21} className="cursor-pointer  " />
+              </a>
+              <a
+                className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+                href={bioData.linkedin}
+                target="_blank"
+              >
+                <FaLinkedin size={21} className="cursor-pointer " />
+              </a>
+              <a
+                className=" text-black  hover:bg-blue-500 hover:text-white bg-white rounded-full p-2 flex justify-center items-center "
+                href={bioData.instagram}
+                target="_blank"
+              >
+                <FaInstagram size={21} className="cursor-pointer " />
+              </a>
+              <a
+                className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+                href={bioData.github}
+                target="_blank"
+              >
+                <FaGithub size={21} className="cursor-pointer " />
+              </a>
+            </nav>
           </div>
-
         </div>
       </main>
 
-       <nav className="fixed z-50 bottom-5 right-3 hidden lg:block">
+      <nav className="fixed z-50 bottom-5 right-3 hidden lg:block">
         <aside className="flex flex-col gap-3">
-
-            <a className="text-black bg-white hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.twitter} target="_blank">
-              <FaX size={21} className="cursor-pointer  " />
-            </a>
-            <a className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.linkedin} target="_blank">
-              <FaLinkedin
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-            <a className=" text-black  hover:bg-blue-500 hover:text-white bg-white rounded-full p-2 flex justify-center items-center " href={bioData.instagram} target="_blank">
-              <FaInstagram
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-            <a className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center " href={bioData.github} target="_blank">
-              <FaGithub
-                size={21}
-                className="cursor-pointer "
-              />
-            </a>
-                </aside>
-          </nav>
+          <a
+            className="text-black bg-white hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+            href={bioData.twitter}
+            target="_blank"
+          >
+            <FaX size={21} className="cursor-pointer  " />
+          </a>
+          <a
+            className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+            href={bioData.linkedin}
+            target="_blank"
+          >
+            <FaLinkedin size={21} className="cursor-pointer " />
+          </a>
+          <a
+            className=" text-black  hover:bg-blue-500 hover:text-white bg-white rounded-full p-2 flex justify-center items-center "
+            href={bioData.instagram}
+            target="_blank"
+          >
+            <FaInstagram size={21} className="cursor-pointer " />
+          </a>
+          <a
+            className=" text-black bg-white  hover:bg-blue-500 hover:text-white rounded-full p-2 flex justify-center items-center "
+            href={bioData.github}
+            target="_blank"
+          >
+            <FaGithub size={21} className="cursor-pointer " />
+          </a>
+        </aside>
+      </nav>
     </>
   );
 };

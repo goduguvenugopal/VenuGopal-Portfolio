@@ -200,7 +200,7 @@ export const projects = [
     ],
     category: "fullstack",
     github: "https://github.com/goduguvenugopal/fashionanr",
-    webapp: "https://fashionanr.netlify.app/",
+    webapp: "https://fashionanr.vercel.app",
   },
   {
     id: 3,
